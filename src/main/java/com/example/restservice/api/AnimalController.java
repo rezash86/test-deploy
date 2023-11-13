@@ -17,7 +17,7 @@ public class AnimalController {
 
     AnimalService animalService = new AnimalService();
 
-    @GetMapping("/")
+    @GetMapping("/message")
     public String getDefault() {
        return "hello world";
     }
